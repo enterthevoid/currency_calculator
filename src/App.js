@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import classNames from 'classnames';
+
+import AppBar from './components/AppBar';
+import AppFrame from './components/AppFrame'
+import { isMobile } from './components/helpers';
+
+const styles = (theme) => ({
+  root: {
+    width: '100%',
+    backgroundColor: theme.palette.background.default,
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  desktopHeight: {
+    height: '-webkit-fill-available'
+  }
+})
 
 class App extends Component {
+
   render() {
+    const { classes } = this.props;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className={classNames(
+        classes.root,
+        { [classes.desktopHeight]: !isMobile }
+      )
+      }>
+        <AppBar />
+        <AppFrame />
       </div>
     );
   }
 }
 
-export default App;
+App.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(App);

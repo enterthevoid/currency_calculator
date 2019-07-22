@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="391px" height="157px" viewBox="0 0 391 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(0.000000, 8.000000)">
+            <g id="Group" fill="#4A4A4A">
+                <rect id="Rectangle-3" x="0" y="27" width="134" height="86" rx="8"></rect>
+                <polygon id="Triangle" stroke="#4A4A4A" stroke-width="15" stroke-linecap="square" stroke-linejoin="round" points="67 0 126.332102 34.5318342 7.50369401 34.5318342"></polygon>
+                <polygon id="Triangle" stroke="#4A4A4A" stroke-width="15" stroke-linecap="square" stroke-linejoin="round" transform="translate(66.917898, 123.265917) scale(1, -1) translate(-66.917898, -123.265917) " points="67 106 126.332102 140.531834 7.50369401 140.531834"></polygon>
+            </g>
+            <g id="Group-2" transform="translate(21.000000, 17.000000)">
+                <path d="M0.532471838,19.7183804 L44.5324718,-3.55282657 C45.0206795,-3.81103524 45.6257695,-3.62458422 45.8839782,-3.13637655 C45.9601705,-2.99231596 46,-2.83181689 46,-2.66884839 L46,109.58845 C46,110.140735 45.5522847,110.58845 45,110.58845 C44.820136,110.58845 44.6436014,110.539939 44.4889944,110.448027 L0.488994385,84.2906997 C0.185810819,84.1104617 1.2273918e-13,83.7838347 1.17683641e-13,83.4311223 L1.16351373e-13,20.6023586 C1.16305993e-13,20.2318028 0.204908576,19.8916257 0.532471838,19.7183804 Z" id="Rectangle-2" fill="#F5A623"></path>
+                <path d="M46.5324718,19.7183804 L90.5324718,-3.55282657 C91.0206795,-3.81103524 91.6257695,-3.62458422 91.8839782,-3.13637655 C91.9601705,-2.99231596 92,-2.83181689 92,-2.66884839 L92,109.58845 C92,110.140735 91.5522847,110.58845 91,110.58845 C90.820136,110.58845 90.6436014,110.539939 90.4889944,110.448027 L46.4889944,84.2906997 C46.1858108,84.1104617 46,83.7838347 46,83.4311223 L46,20.6023586 C46,20.2318028 46.2049086,19.8916257 46.5324718,19.7183804 Z" id="Rectangle-2" fill="#9B9B9B" transform="translate(69.000000, 53.117027) scale(-1, 1) translate(-69.000000, -53.117027) "></path>
+            </g>
+            <text id="EXTHEBIT" opacity="0.807744565" font-family="Phosphate-Inline, Phosphate" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="140" y="81">EXTHEBIT</tspan>
+            </text>
+            <text id="E" font-family="Phosphate-Inline, Phosphate" font-size="108" font-weight="normal" fill="#000000">
+                <tspan x="41" y="108">E</tspan>
+            </text>
+            <text id="Your-best-solution" opacity="0.769361413" font-family="Phosphate-Inline, Phosphate" font-size="23" font-weight="normal" fill="#000000">
+                <tspan x="142" y="103">Your best solution</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
