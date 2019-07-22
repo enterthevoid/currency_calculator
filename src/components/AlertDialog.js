@@ -11,7 +11,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 class AlertDialog extends React.Component {
 
   render() {
-    const { openDialog, onCloseDialog, fromCurr, toCurr, countTo, countFrom } = this.props;
+    const { openDialog, onCloseDialog, fromCurr, sum, toCurr, countTo, countFrom } = this.props;
     return (
       <Dialog
         open={openDialog}
@@ -20,10 +20,9 @@ class AlertDialog extends React.Component {
         <DialogTitle>Exchange Info</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            {'fromCurr' + fromCurr}<br />
-            {'toCurr' + toCurr}<br />
-            {'countTo' + countTo}<br />
-            {'countFrom' + countFrom}
+            {`You converting ${countFrom} ${fromCurr} to ${toCurr}`}
+            <br />
+            {`The result will be ${sum}`}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
@@ -44,6 +43,7 @@ AlertDialog.propTypes = {
   toCurr: PropTypes.string,
   countTo: PropTypes.any,
   countFrom: PropTypes.any,
+  sum: PropTypes.number,
 };
 
 export default AlertDialog;
