@@ -1,8 +1,10 @@
 Simple currency calculator
 
-## To run project
+## Live Demo
 
-Clone repository.
+https://dashboard.heroku.com/apps/crypto-currency-calculator/deploy/github
+
+## Or clone project
 
 Run 'npm install'.
 
