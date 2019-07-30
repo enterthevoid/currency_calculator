@@ -2,7 +2,7 @@ Simple currency calculator
 
 ## Live Demo
 
-https://dashboard.heroku.com/apps/crypto-currency-calculator/deploy/github
+https://crypto-currency-calculator.herokuapp.com/
 
 ## Or clone project
 
